@@ -1,168 +1,358 @@
-<Academics.html>
-
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-      
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    
-     
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        
-        <title>Rodhne Del Rosario Electronic Portfolio</title>
-        
-       
-        <link rel="stylesheet" type="text/css" href="style.css">
-       
-       
-    </head>
-    <body>
-    
-        <nav class="navbar navbar-dark bg-black" aria-label="top navigation">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Rodhne Del Rosario</a>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <div class="navbar-collapse collapse" id="menu">
-                    <ul class="navbar-nav me-auto mb-2">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Academics.html">Academics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Communityservice.html">community service</a>
-                        </li>
-                        <li><hr class="dropdown-divider text-light"></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">projects</a>
-                        </li>
-                    </ul>
-                    
-                </div>
-            </div>
-        </nav> 
-
-
-        
-
-
-
-
-<div class="container">
-    <h1>My Workplace Experiences</h1>
-
-    <div class="experience">
-        <h3>NESTOR I.C. DEL ROSARIO MD INC.</h3>
-        <p>Role: Receptionist/Cyber Security intern/student</p>
-        <p>Duration: 2 years</p>
-        
-        <ul class="achievement">
-
-
-
-
-            <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-
-<br>          </br>
-
-
-
-
-
-    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #333;
-            text-align: left;
-        }
-
-        p {
-            line-height: 1.6;
-            text-align: left;
-        }
-    </style>
-</head>
-
-
-
-
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Membership</title>
+    <title>Rodhne Del Rosario - Academics</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+        /* Global Styles */
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
         }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
+        
+        body {
+            background-color: #f5f5f5;
             color: #333;
-            text-align: left;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        /* Navigation Styles */
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+            position: relative;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #3498db;
+        }
+        
+        /* Navigation hover effect */
+        nav ul li a:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #3498db;
+            transition: width 0.3s;
+            margin-top: 3px;
+        }
+        
+        nav ul li a:hover:after {
+            width: 100%;
+        }
+        
+        /* Academic Experience Section */
+        .academic-intro {
+            background-color: white;
+            padding: 60px 0;
         }
 
-        p {
+        .academic-intro h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .academic-intro p {
+            max-width: 800px;
+            margin: 0 auto 30px;
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        /* Work Experience Section */
+        .work-experience {
+            background-color: #f9f9f9;
+            padding: 60px 0;
+        }
+        
+        .work-experience h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #2c3e50;
+        }
+        
+        .experience-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .experience-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .experience-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        
+        .experience-card .role {
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+        
+        .experience-card .duration {
+            color: #777;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        
+        .experience-card ul {
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+        
+        .experience-card li {
+            margin-bottom: 5px;
+        }
+        
+        /* Club Memberships Section */
+        .club-memberships {
+            background-color: white;
+            padding: 60px 0;
+        }
+        
+        .club-memberships h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #2c3e50;
+        }
+        
+        .clubs-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .club-card {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            height: 100%;
+        }
+        
+        .club-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .club-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 22px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .club-card p {
             line-height: 1.6;
-            text-align: left;
+        }
+        
+        .club-card .role {
+            font-weight: bold;
+            color: #3498db;
+            margin-top: 15px;
+        }
+        
+        .club-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        /* Footer Styles */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .social-icons {
+            margin-top: 20px;
+        }
+        
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+        
+        .social-icons a:hover {
+            color: #3498db;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 5px 10px;
+            }
+            
+            .clubs-container {
+                grid-template-columns: 1fr;
+            }
+            
+            /* Mobile nav styling */
+            nav ul li a:after {
+                display: none;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Rodhne Del Rosario</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="Communityservice.html">Community Service</a></li>
+                    <li><a href="Academics.html">Academics</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<div class="container">
-    <h1>Esports club</h1>
-    <p>I have been apart of the Waipahu High School Esports club since 2022 and in that time I have gotten the officer role in the club</p>
-  
-</div>
+    <!-- Academic Introduction -->
+    <section class="academic-intro">
+        <div class="container">
+            <h2>My Academic Journey</h2>
+            <p>Education has been a cornerstone of my personal and professional development. I'm passionate about learning and continuously expanding my knowledge and skills. My academic journey has shaped my perspective and prepared me for future challenges.</p>
+        </div>
+    </section>
 
+    <!-- Work Experience Section -->
+    <section class="work-experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            
+            <div class="experience-card">
+                <h3>NESTOR I.C. DEL ROSARIO MD INC.</h3>
+                <div class="role">Receptionist/Cyber Security Intern/Student</div>
+                <div class="duration">Duration: 2 years</div>
+                <p>Working in a medical practice gave me valuable experience in both customer service and healthcare administration. As part of my internship, I also gained hands-on experience with cybersecurity practices to protect sensitive patient information.</p>
+                <ul>
+                    <li>Managed patient scheduling and front desk operations</li>
+                    <li>Assisted with implementation of security protocols</li>
+                    <li>Conducted basic IT troubleshooting for office systems</li>
+                    <li>Maintained patient records with strict confidentiality</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Club Memberships Section -->
+    <section class="club-memberships">
+        <div class="container">
+            <h2>Club Memberships</h2>
+            
+            <div class="clubs-container">
+                <div class="club-card">
+                    <img src="../pictures/esports.jpg" alt="Esports Club" onerror="this.src='/api/placeholder/400/200'; this.alt='Esports Club placeholder'">
+                    <h3>Esports Club</h3>
+                    <p>I have been a part of the Waipahu High School Esports club since 2022. During my time with the club, I've participated in various gaming tournaments and helped organize competitive events.</p>
+                    <div class="role">Position: Officer</div>
+                    <p>As an officer in the club, I help coordinate team practices, manage tournament registrations, and mentor new members.</p>
+                </div>
+                
+                <div class="club-card">
+                    <img src="../pictures/pacc.jpg" alt="PACC Club" onerror="this.src='/api/placeholder/400/200'; this.alt='PACC Club placeholder'">
+                    <h3>Pacific and Asian Affairs Council (PACC)</h3>
+                    <p>As a member of PACC, I've developed a deeper understanding of international relations, particularly in the Pacific and Asian regions. The club has broadened my global perspective through various educational activities and discussions.</p>
+                    <div class="role">Position: Member</div>
+                    <p>I've participated in model United Nations events, cultural exchange programs, and discussions on international policy that have enhanced my knowledge of global affairs.</p>
+                </div>
+                
+                <div class="club-card">
+                    <img src="../pictures/key.jpg" alt="KEY Club" onerror="this.src='/api/placeholder/400/200'; this.alt='KEY Club placeholder'">
+                    <h3>KEY Club</h3>
+                    <p>The KEY Club (Kiwanis Educating Youth) has provided me with numerous opportunities for community service and leadership development. Through this organization, I've been able to make a positive impact on my community.</p>
+                    <div class="role">Position: Volunteer</div>
+                    <p>I've participated in various service projects including food drives, beach clean-ups, and fundraising events for local charities. These experiences have strengthened my commitment to community service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rodhne Del Rosario. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
